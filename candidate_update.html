@@ -1,0 +1,138 @@
+
+<html>
+    <head>
+        <title>Register Page</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="header_css.css">
+        <link rel="stylesheet" type="text/css" href="menu.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="radio.css">
+        <link rel="stylesheet" type="text/css" href="register.css">
+        <link rel="stylesheet" type="text/css" href="candidate_registration.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="main">
+            <header>
+            <span id="logo"><img src="" alt="logo"/></span>
+            <div id="sub_right_header">
+                <span>
+                    <ul>
+                    <li><a href="admin_login.html" >
+                            <span><i class="fa fa-user"></i> <b>Admin</b></span>
+        </a></li></ul></span>
+                </div>
+        </header>
+            <menu>
+                <ul>
+  <li><a href="home.jsp">Home</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Candidate</a>
+    <div class="dropdown-content">
+        <a href="#" id="candidate_registration">Candidate Registration </a>
+      <a href="candidate_login.html">Candidate Login</a>
+      <a href="forgot_candiidate.html ">Forgot password</a>
+    </div>
+    <div>
+         <li class="dropdown">
+        <a href="javascripts:void(0)" class="dropbtn"> Employer</a>
+          <div class="dropdown-content">
+       <a href="employer_reg.html">Employer Registration</a>
+      <a href="employer_login.html">Employer Login</a>
+      <a href="employer_forgot.html">Forgot password</a>
+        </div>
+        <li><a href="#About Us">Advance Search</a> </li>
+        <li><a href="#About Us">Services</a> </li>
+         <li><a href="careers.html">Career with us</a></li>
+         <li><a href="#About Us">About Us</a> </li>
+         <li><a href="contact.jsp">Contact Us</a> </li>
+         
+   
+</ul>
+            </menu>
+           
+            <div id="candidate_registrationn">
+                
+                <form action="CandReg" method="post">
+                    <div style="height:36px; width: 428px; background-color: #1e7125; margin: 28px 3px 2px 367px; color: white; border-radius: 25px; text-align: center; padding: 20px 0 0 0;">Candidate Registration</div>
+  <div class="imgcontainer">
+      <img src="profile.png" alt="Avatar" class="avatar" >
+  </div>
+
+  <div class="container">
+      <label><b>Enter ID</b></label>
+    <input type="text" placeholder="Enter Candidate ID" name="cid" required>
+    
+    <label><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="fname" required>
+
+    <label><b>Middle Name</b></label>
+    <input type="text" placeholder="Enter middle Name" name="mname">
+    
+    <label><b>Last Name</b></label>
+    <input type="text" placeholder="Enter last name" name="lname" required>
+    
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Select a file " name="pass" required>
+    
+    <label><b>E-Mail</b></label><br>
+    <input class="employer_select_option_new" type="email" placeholder="Enter a E-Mail" name="email" required><br>
+    
+    <label><b>Contact</b></label>
+    <input type="text" placeholder="Enter a contact" name="contact" required>
+   
+    <label><b>State</b></label>
+    <input type="text" placeholder="Enter a State" name="state" required>
+    
+    <label><b>City</b></label>
+    <input type="text" placeholder="Enter a City" name="city" required>
+    
+    <label><b>Gender</b></label><br><br>
+    Male<input class="radio_new" type="radio" name="gender" value="male" required>
+    Female<input class="radio_new" type="radio" type="radio" name="gender" value="female" required><br><br>
+    
+    <label><b>DOB</b></label><br>
+    <input class="employer_select_option_new" type="date" placeholder="select a date of birth " name="dob" required><br>
+        
+    <label><b>File</b></label>
+    <input class="employer_select_option_new" type="file" accept="application/msword" placeholder="Select a file " name="resume" required>
+    
+    
+    
+    <button type="submit">Register</button>
+    
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+      <button type="button"  class="cancelbtn" ><a href="home.jsp"><b>Cancel</b></a></button>
+    <span class="psw"> <a href="#">Forgot password?</a></span>
+  </div>
+</form>
+
+            
+            
+            </div>
+             <footer>
+                 <h3 align ="center">Copyright &copy;. All rights reserved. Design by <a href="https://www.google.co.in/?gfe_rd=cr&ei=chx3WIbPIsHk8Aeb-pWwAg" target="_blank" title="Place To Right" </h3>
+                 
+                 <nav>
+  <a >HOME</a> |
+  <a >CONTACT US </a> |
+  <a >SITE MAP </a> |
+  <a >ABOUT US</a> |
+  <a>FOLLOW US </a>
+  <a link href="https://en-gb.facebook.com/login/"> <i class="fa fa-facebook-square"></a></i>
+  <a link href="https://www.google.com/"><i class="fa fa-google"></i>
+      <a link href="https://www.twitter.com/"><i class="fa fa-twitter-square"></i>
+ 
+</nav>
+</footer>
+</div>
+        
+        
+        </body>
+</html>

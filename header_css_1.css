@@ -1,0 +1,61 @@
+*{padding: 0px; margin: 0px}
+
+body{overflow: scroll;
+}
+
+.main{width: 1160px;
+height:auto;
+background-color: whitesmoke;
+margin: 0px 0 0 100px;
+
+box-shadow: 1px 1px 60px black;}
+
+header{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50px;
+  
+   
+}
+#logo{
+    height:20%;
+    width: 50px;
+    float: left;
+}
+#sub_right_header{
+    float: right;
+    height: 30%;
+    width: 75px;
+   
+    
+}
+#sub_right_header {display: inline;}
+#sub_right_header ul{  background-color: whitesmoke;height: 50px; width:75px; float: right}
+    
+#sub_right_header ul li{display: inline; text-align: right; }
+#sub_right_header ul li a{ 
+    text-decoration: none;
+display: block;
+padding: 15px;
+background-color: white;
+box-shadow: 1px 1px 50px rgb(50,150,50);
+color: black; 
+}
+#sub_right_header ul li a:hover{
+    background-color: rgb(50,150,50);
+  
+    color: white;
+        
+}
+#admin_popup_open{border: 1px solid black;
+height: 61px; width: 74px; display: block; background-color:#4CAF50;display: inline; margin: 0px 0px 0px 0px}
+
+.main header img{height: 40px; width: 80px;}
+
+#admin_popup{float: right; display: inline;}
+ 
+.employer_select_option{height: 42px; width: 540px; margin: 10px 0px 10px 0px;}
+
+#employer_select_option{height: 42px; width: 1121px; margin: 10px 0px 10px 0px;}
+
+.employer_select_option_new{height: 42px; width: 1121px; margin: 10px 0px 10px 0px;}

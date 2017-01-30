@@ -1,0 +1,42 @@
+#main{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    margin: 0px 0 0 0px;
+}
+.advance_search
+{
+    height: 100px;
+    width: 100%;
+      
+    margin: 10px 0 0 50px;
+    
+}
+
+#main table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#main th, td {
+    text-align: left;
+    padding: 0px 0 0px 0;
+}
+
+#main tr:nth-child(even){background-color: whitesmoke;}
+#main th {
+    background-color: #4CAF50;
+    color: white;
+}
+.add_for_homepage
+{
+    height: 60px;
+    width: 100%;
+    border: 1px solid red;
+}
+.home_main
+{
+    width: 300px;
+    border: 50px solid #3366ff;
+    
+}

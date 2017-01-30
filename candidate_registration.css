@@ -1,0 +1,67 @@
+#candidate_registrationn form {
+    border: 3px solid #f1f1f1;
+}
+
+#candidate_registrationn input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#candidate_registrationn button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#candidate_registrationn .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: green;
+}
+
+#candidate_registrationn .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+#candidate_registrationn img.avatar {
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+}
+
+#candidate_registrationn .container {
+    padding: 16px;
+}
+
+.cancelbtn a{text-decoration: none; color: black;}
+#candidate_registrationn .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: green;
+}
+
+#candidate_registrationn span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+   #candidate_registrationn  .cancelbtn {
+       width: 100%;
+    }
+}
+

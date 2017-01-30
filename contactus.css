@@ -1,0 +1,16 @@
+.contact{
+    border: 1px solid black;
+    box-shadow: 1px 1px 60px black  ;
+    height: 600px;
+    width: 600px;
+    margin: 76px 0 135px 260px;
+    
+}
+.conn{width: 600px;
+height: 100px;
+color: green;
+padding: 20px 0 0 0;}
+
+.con{width: 600px;
+height: 500px;}
+

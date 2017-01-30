@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <style>
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+    left: 0;
+    top: 0;
+     /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 38%;
+}
+
+/* The Close Button */
+.close {
+    color: green;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(30,113,37);
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="header_css.css">
+        <link rel="stylesheet" type="text/css" href="menu.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="radio.css">
+        <link rel="stylesheet" type="text/css" href="register.css">
+        <link rel="stylesheet" type="text/css" href="candidate_registration.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Apply</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+            
+            
+           
+            <div id="candidate_registrationn" style="width:500px;">
+                
+                <form action="" method="GET">
+                    <div style="height:36px; width: 253px; background-color: #1e7125; margin: 19px 3px 2px 85px; color: white; border-radius: 25px; text-align: center; padding: 20px 0 0 0;">Apply Form</div>
+  
+
+                    <div class="container" >
+      <label><b>Candidate ID:</b></label>
+    <input type="text" placeholder="Enter your ID" name="c_id" required>
+    
+    
+      
+    <label><b>Name</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>E-Mail</b></label><br>
+    <input style="width: 411px;" class="employer_select_option_new" type="email" placeholder="Enter a E-Mail" name="email" required><br>
+    
+    <label><b>Contact</b></label>
+    <input type="text" placeholder="Enter a contact" name="contact" required>
+   
+   <br>
+    <label><b>Job ID:</b></label>
+    <input type="text" placeholder="Enter job ID" name="j_id" required>
+        
+    <label><b>Resume File</b></label>
+    <input class="employer_select_option_new" type="file" accept="application/msword" placeholder="Select a file " name="file" required>
+    
+    
+    
+    <button type="submit">Apply</button>
+    
+  </div>
+
+  
+</form>
+
+            
+            
+            </div>
+            
+</div>
+  </div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+.radio
+{
+    height: 55px;
+    width: 197px;
+    padding: 18px 0 0px 37px;
+    
+    color:white;
+}
+#radio
+{
+    height: 55px;
+    width: 197px;
+    padding: 18px 0 0px 37px;
+    
+    color: white;
+}
+.radio:hover
+{background-color: rgb(50,150,50)}
+
+#radio:hover
+{background-color:rgb(50,150,50) }
+
+.radio_new
+{
+    height: 20px;
+    width: 140px;
+    padding: 18px 0px opx 37px;
+}

@@ -1,0 +1,8 @@
+footer {
+    padding: 1em;
+    color: white;
+    background-color: rgb(30,113,37);;
+    clear: left;
+    text-align: center;
+}
+footer li a{text-decoration: none;}
